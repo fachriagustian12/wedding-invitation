@@ -1451,7 +1451,7 @@
       autostart="true"
       id="theAudio"
     ></audio> -->
-    <audio id="theAudio" preload="auto" controls autoplay loop>
+    <audio id="theAudio" preload="auto" controls loop>
       <source src="assets/music/music.mp3" type="audio/mp3" />
     </audio>
     <!-- END SECTION HERO -->
@@ -1505,6 +1505,7 @@
         togglePlay();
       }
       var theAudio = document.getElementById("theAudio");
+      theAudio.play();
       var isPlaying = true;
       function togglePlay() {
         if (isPlaying === true) {
