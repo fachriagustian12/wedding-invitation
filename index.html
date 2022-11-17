@@ -1505,16 +1505,6 @@
         togglePlay();
       }
       var theAudio = document.getElementById("theAudio");
-      var promise = theAudio.play();
-
-if (promise !== undefined) {
-  promise.then(_ => {
-    theAudio.play()
-  }).catch(error => {
-    // Autoplay was prevented.
-    // Show a "Play" button so that user can start playback.
-  });
-}
       var isPlaying = true;
       function togglePlay() {
         if (isPlaying === true) {
