@@ -1511,12 +1511,6 @@
     >
       <i id="float-icon" class="bx bxs-music text-yello"></i>
     </button>
-    <!-- <audio
-      src="assets/music/music.mp3"
-      loop="true"
-      autostart="true"
-      id="theAudio"
-    ></audio> -->
     <audio loop id="theAudio">
       <source src="assets/music/music.mp3" type="audio/mpeg" />
     </audio>
@@ -1641,7 +1635,7 @@
         // isPlaying ? theAudio.pause() : theAudio.play();
       }
 
-      theAudio.onplay = function () {
+      theAudio.onplaying = function () {
         isPlaying = true;
       };
       theAudio.onpause = function () {
