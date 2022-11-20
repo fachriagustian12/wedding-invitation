@@ -9,6 +9,7 @@ module.exports = {
     fontFamily: {
       dancingScript: ['"Dancing Script"', "sans-serif"],
       poppins: ["Poppins", "serif"],
+      angelina: ["Angelina", "sans-serif"],
     },
     extend: {
       colors: {
