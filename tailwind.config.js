@@ -15,7 +15,7 @@ module.exports = {
       colors: {
         main: "#001d3d",
         yello: "#ffc300",
-        cream: "#ffecd1",
+        cream: "#f9d599",
       },
     },
   },
